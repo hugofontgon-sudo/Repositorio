@@ -20,4 +20,13 @@ public class Calculadora {
 
 		System.out.printf("%.2f %s %.2f = %.2f\n", num1, operacion, num2, resultado);
 	}
+
+	public static void uso() {
+		System.oy.println("USO: java Calcladora <operacion> num1 num2");
+	}
+
+	public static void help() {
+		System.out.println("Operaciones soportadas: ");
+		System.out.println("add\nsub\nmul\ndiv\n");
+	}
 }
